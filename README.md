@@ -30,7 +30,7 @@ And, enjoy :)
 
 ```bash
 # 4. Run development server and open http://localhost:3000
-yarn start:dev
+pnpm start:dev
 
 # 5. Read the documentation linked below for "Setup and development".
 ```
@@ -40,7 +40,7 @@ yarn start:dev
 To build the App, run
 
 ```bash
-yarn build:prod
+pnpm build:prod
 ```
 
 And you will see the generated file in `dist` that ready to be served.
