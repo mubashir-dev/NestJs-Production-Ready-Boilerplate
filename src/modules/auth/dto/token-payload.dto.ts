@@ -1,0 +1,14 @@
+import { NumberField, StringField } from '@src/decorators/field.decorators';
+
+export class TokenPayloadDto {
+  @NumberField()
+  expiresIn: number;
+
+  @StringField()
+  accessToken: string;
+
+  constructor(data: { expiresIn: number; accessToken: string }) {
+    this.expiresIn = data.expiresIn;
+    this.accessToken = data.accessToken;
+  }
+}
