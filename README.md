@@ -1,6 +1,6 @@
-# IPLexPeople Server
+# NestJs Boilerplate Server
 
-> IPLexPeople Server repository with TypeORM, Swagger,Postgres 🚀
+> NestJs Boilerplate Server repository with TypeORM, Swagger,Postgres 🚀
 
 ## Getting started
 
@@ -8,7 +8,7 @@
 # 1. Clone the repository or click on "Use this template" button.
 
 # 2. Enter newly cloned folder
-cd fas-serve
+cd NestJs-Production-Ready-Boilerplate
 
 # 3. Create Environment variables file.
 cp .env.example .env
